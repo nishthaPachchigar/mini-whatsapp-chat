@@ -1,0 +1,135 @@
+/* RESET + BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #e5ddd5;
+    color: #333;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* HEADINGS */
+h3 {
+    margin-bottom: 20px;
+    color: #075e54;
+}
+
+/* CHAT CARD */
+.chat {
+    background-color: #dcf8c6;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+/* MESSAGE BUBBLE */
+.msg {
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 80%;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+/* META TEXT */
+.chat p {
+    font-size: 0.9rem;
+    margin-top: 6px;
+}
+.chat p:last-of-type {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+/* BUTTONS */
+button {
+    background-color: #075e54;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+button:hover {
+    background-color: #128c7e;
+}
+
+/* FORMS */
+form {
+    margin-top: 15px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+input:focus, textarea:focus {
+    border-color: #25d366;
+    outline: none;
+}
+
+/* NEW/EDIT PAGE CONTAINER */
+.container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.chat, .msg, input, textarea, button {
+    transition: all 0.3s ease;
+}
+
+body {
+    padding: 15px;
+    width: 95%;
+    max-width: 700px;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+.msg {
+    background-color: #f1f0f0; /* soft light grey */
+    color: #222; /* darker text for better readability */
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 80%;
+    margin-top: 10px;
+    font-size: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.chat p:last-of-type {
+    font-size: 0.75rem;
+    color: #888;
+    font-style: italic;
+}
+
+.container {
+    border: 1px solid #ddd;
+}
+
+form button {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.chat:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
